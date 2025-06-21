@@ -1,29 +1,39 @@
-🧠 Garbage Classification using Transfer Learning
+# 🧠 Garbage Classification using Transfer Learning
+
 This project aims to classify garbage into various categories using image data 
 
-📅 Week 1 Progress
+## 📅 Week 1 Progress
+
 This week focused on preparing the data pipeline and training the model using transfer learning.
 
-✅ Tasks Completed:
-Importing Required Libraries
-Loaded essential libraries like TensorFlow, Keras, NumPy, and Matplotlib.
+### ✅ Tasks Completed:
 
-Dataset Loading
-from zip data extract the dataset and loaded
+1. **Importing Required Libraries**  
+   Loaded essential libraries like TensorFlow, Keras, NumPy, and Matplotlib.
 
-Data Preprocessing
-Resized images, normalized pixel values, and explored sample data.
+2. **Dataset Loading**  
+   Mounted Google Drive and loaded image dataset from structured folders.
 
-Data Augmentation
-Applied transformations  to enrich training data.
+3. **Data Preprocessing**  
+   Resized images, normalized pixel values, and explored sample data.
 
-Train/Validation Dataset Preparation
+4. **Data Augmentation**  
+   Applied transformations (flip, zoom, rotate) to enrich training data.
+
+5. **Train/Validation Dataset Preparation**  
+   Split data using `image_dataset_from_directory`.
 
 
-Model Building and Training
+6. **Model Building and Training**  
+   - Built model using **EfficientNetB0** as the base.
+   - Compiled model with Adam optimizer and categorical crossentropy.
+   - Trained model for defined epochs and monitored accuracy/loss.
 
-Built model using MobileNetV2 as the base.
+## 📊 Dataset
 
-Compiled model with Adam optimizer and categorical crossentropy.
+This project uses a dataset from **Kaggle**:
 
-Trained model for defined epochs and monitored accuracy/loss.
+[Trash Type Image Dataset — by Farzad Nekouei](https://www.kaggle.com/datasets/farzadnekouei/trash-type-image-dataset)
+
+It contains images of various garbage types categorized into folders suitable for image classification tasks.
+
