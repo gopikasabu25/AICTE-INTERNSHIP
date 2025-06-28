@@ -28,6 +28,16 @@ This week focused on preparing the data pipeline and training the model using tr
    - Built model using **EfficientNetB0** as the base.
    - Compiled model with Adam optimizer and categorical crossentropy.
    - Trained model for defined epochs and monitored accuracy/loss.
+  
+## Week 2
+
+Model Performance Visualization: Accuracy & Loss Trends
+
+Evaluate the model performance using classification metrics and confusion matrix.
+
+Deployed with Gradio
+
+[!screenshot](https://github.com/gopikasabu25/AICTE-INTERNSHIP/blob/main/gradio%20output.png)
 
 ## 📊 Dataset
 
