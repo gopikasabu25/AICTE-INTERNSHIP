@@ -25,7 +25,7 @@ This week focused on preparing the data pipeline and training the model using tr
 
 
 6. **Model Building and Training**  
-   - Built model using **EfficientNetB0** as the base.
+   - Built model using **EfficientNetV2B2** as the base.
    - Compiled model with Adam optimizer and categorical crossentropy.
    - Trained model for defined epochs and monitored accuracy/loss.
   
@@ -36,6 +36,14 @@ Model Performance Visualization: Accuracy & Loss Trends
 Evaluate the model performance using classification metrics and confusion matrix.
 
 Deployed with Gradio
+
+## Week 3
+
+Build model using **EfficientNetV2B3** AND USING **DenseNet201**
+
+Compare the 3 model accuracy and plot bar chart
+
+deployed using streamlit
 
 [!screenshot](https://github.com/gopikasabu25/AICTE-INTERNSHIP/blob/main/gradio%20output.png)
 
